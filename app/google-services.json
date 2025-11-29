@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "431698458768",
+    "firebase_url": "https://unimapsmartbustracker-2110a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "unimapsmartbustracker-2110a",
+    "storage_bucket": "unimapsmartbustracker-2110a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:431698458768:android:4d4306393430591015c015",
+        "android_client_info": {
+          "package_name": "com.example.unimapsmartbustracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9lrlX0KrZf3lTn97Tsru0otu8z2y_fyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

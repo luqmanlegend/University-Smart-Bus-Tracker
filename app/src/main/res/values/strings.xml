@@ -1,0 +1,15 @@
+<resources>
+    //main page
+    <string name="app_name">UniMAPSmartBusTracker</string>
+    <string name="unimap_logo">UniMAP Logo</string>
+    <string name="updated_schedule">Check UniMAP Bus Schedule</string>
+    <string name="track_bus_by_station">Track UniMAP Bus</string>
+    <string name="welcome_message">Welcome to UniMAP Smart Bus Tracker System</string>
+
+    //schedule page
+    <string name="unimap_bus_schedule">UniMAP Bus Schedule Image</string>
+    <string name="route_a_schedule">Route A Schedule</string>" // route A
+    <string name="route_b_schedule">Route A Schedule</string>" // route B
+
+
+</resources>

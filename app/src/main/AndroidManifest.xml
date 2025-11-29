@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unimapsmartbustracker">
+    <!-- Permissions for Internet, Location, and Network State (good practice) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniMAPSmartBusTracker"
+        tools:targetApi="31">
+        <activity
+            android:name=".PastRoutesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusRouteTrackingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusDriverStartRouteActivity"
+            android:exported="false" /> <!-- Google Maps API Key - MUST BE INSIDE THE <application> TAG -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCG-L1k9RsC555ZkGlbe7I-DEh6P1h7Ymk" /> <!-- Activity Declarations -->
+        <activity
+            android:name=".TrackBusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewAssignedBusRoutesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusDriverAssignedRoutesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAssignBusDriverRouteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusDriverDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BusDriversDatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactStudentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StudentsDatabaseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDatabasePage"
+            android:exported="false" />
+        <activity
+            android:name=".RouteBBusPath"
+            android:exported="false" />
+        <activity
+            android:name=".RouteABusPath"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPage"
+            android:exported="false" />
+        <activity
+            android:name=".RouteBPage"
+            android:exported="false" />
+        <activity
+            android:name=".RouteAPage"
+            android:exported="false" />
+        <activity
+            android:name=".ChangePassword"
+            android:exported="false" />
+        <activity
+            android:name=".BusDriverMainPage"
+            android:exported="false" />
+        <activity
+            android:name=".BusDriverLogin"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomePageActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentLogin"
+            android:exported="false" />
+        <activity
+            android:name=".StudentRegister"
+            android:exported="false" />
+        <activity
+            android:name=".BusDriverRegister"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UniMAPBusSchedulePage"
+            android:exported="false" />
+        <activity
+            android:name=".RouteASchedulePage"
+            android:exported="false" />
+        <activity
+            android:name=".RouteBSchedulePage"
+            android:exported="false" />
+    </application>
+
+</manifest>
